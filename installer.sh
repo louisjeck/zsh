@@ -15,4 +15,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.
 
 cp .zshrc ~
 
-
+cp .p10k.zsh ~
