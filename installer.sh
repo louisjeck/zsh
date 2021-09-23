@@ -2,8 +2,7 @@
 
 apt install zsh
 
-
-cp .zshrc ~
+sed 's/$USER/'"$USER"'/g' .zshrc > ~/.zshrc
 
 cp .p10k.zsh ~
 
