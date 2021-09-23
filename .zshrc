@@ -116,11 +116,5 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export PATH="/home/louis/.linuxbrew/opt/openjdk/bin:$PATH"
-export PATH="/opt/phpstorm/PhpStorm-202.7319.77/bin:$PATH"
-export DISPLAY=${DISPLAY:-$(grep -Po '(?<=nameserver ).*' /etc/resolv.conf):0}
-export LIBGL_ALWAYS_INDIRECT=1
-export GDK_SCALE=2
-export GDK_DPI_SCALE=0.5
 alias sail='bash vendor/bin/sail'
 
