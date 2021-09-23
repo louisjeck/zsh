@@ -2,6 +2,12 @@
 
 apt install zsh
 
+
+cp .zshrc ~
+
+cp .p10k.zsh ~
+
+
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sh install.sh
 
@@ -12,7 +18,3 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 
-
-cp .zshrc ~
-
-cp .p10k.zsh ~
