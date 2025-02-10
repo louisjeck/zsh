@@ -1,8 +1,13 @@
 # zsh
 
-before 
-apt install zsh
+```
+sudo apt install zsh
 
+git clone https://github.com/louisjeck/zsh
 
-after
+cd zsh
+
+sh installer.zh
+
 chsh -s $(which zsh)
+```
